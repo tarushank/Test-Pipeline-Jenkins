@@ -10,4 +10,7 @@ public class DemoToTestPipelineWithJenkinsApplication {
 		SpringApplication.run(DemoToTestPipelineWithJenkinsApplication.class, args);
 	}
 
+	public void displayText() {
+		System.out.println("Jenkins from the main class");
+	}
 }
